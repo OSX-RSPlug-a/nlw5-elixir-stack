@@ -18,8 +18,8 @@ services:
   pgadmin:
     image: dpage/pgadmin4
     environment:
-      PGADMIN_DEFAULT_EMAIL: "kern.log@outlook.com"
-      PGADMIN_DEFAULT_PASSWORD: "@root#=-098765!"
+      PGADMIN_DEFAULT_EMAIL: "URMAIL@MAIL.com"
+      PGADMIN_DEFAULT_PASSWORD: "PASSWORD"
     depends_on:
       - stack-postgres
     ports:
